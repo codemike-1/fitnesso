@@ -1,2 +1,2 @@
 # fitnesso
-Fitnesso is responsive landing page website with cool designs
+Fitnesso is responsive landing page website for a fitness and workout agency
