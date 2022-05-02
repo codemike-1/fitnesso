@@ -1,0 +1,598 @@
+* {box-sizing:border-box;
+   padding: 0;
+   margin: 0;
+}/*universal styling*/
+
+:root {--deepcolor: #081158;
+       --bodycolor: #eef0f4;
+       --font:'Red Hat Display', sans-serif;
+       --font2:'Hina Mincho', serif;;
+}/*Setting variables*/
+
+body {color:var(--deepcolor);
+       font-weight: 500;
+       line-height: 38px;
+      background-color: #eef0f4;
+      font-family: var(--font);
+      font-size: 18px;
+      width: 100%;
+}
+
+.navbar {display: block;
+         background-color: var(--bodycolor);
+         width: 100%;
+         padding: 30px 20px;
+         text-align: center;
+}/*nav container styling*/
+
+
+.logo {width: 200px;
+       display:block;
+       margin: auto;
+}/*logo styled*/
+
+
+.first-section {width: 95%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 40px;
+}/*first section styling*/
+
+.div-one {width: 50%;
+          float:left;
+          display: inline-block;
+          margin-top: 80px;
+          margin-bottom: 50px;
+}/*first div first section*/
+
+.first-heading {font-family: 'permanent marker', serif;
+                text-align: center;
+                font-size: 6vw;
+                color:#8ea5a0;
+                z-index: 1;
+}/*first heading*/
+
+
+.firstimage {width: 100%;
+              border-radius: 15px;
+              height: 650px;
+              background-image: url(images/firstimage.png);
+              background-repeat: no-repeat;
+              background-size: cover;
+              z-index: 40;
+              background-position: center;
+}/*done with first left div styling*/
+
+.div-two {display: inline-block;
+          width: 45%;
+          float: right;
+          margin-top: 165px;
+}/*second right div*/
+
+.fparagraph {font-size: 15px;
+}
+
+.second-heading {font-size: 63px;
+                 line-height: 80px;
+                 margin-top: 18px;
+}
+
+.sparagraph {margin-top: 25px;
+             font-size: 20px;
+}
+
+.online {margin-top: 25px;
+         padding: 15px 23px;
+         color: var(--bodycolor);
+         background-color: var(--deepcolor);
+         border: 2px solid var(--deepcolor);
+         border-radius: 6px;
+         cursor: pointer;
+}
+
+.online:hover, .button-sec-six:hover {transform: scale(1.1, 1.1);}/*end  of second div first section*/
+
+.second-section {float: none;
+                 clear: left;
+                 background-color: var(--deepcolor);
+                 width: 100%;
+                 display: block;
+                 color: var(--bodycolor);
+                 margin-top: 40px;
+}/*second section styling*/
+
+.third-div {width: 100%;
+            padding: 30px 10px;/*div styling for second section*/
+}
+
+.first-div-p {font-size: 25px;
+              font-weight: bold;
+              width: 100%;
+              display: flex;
+              flex-direction: row;
+              flex-flow: row;
+              align-content: space-around;
+              justify-content: space-around;
+}/*first paragraph*/
+
+
+
+.second-div-p {color: #dfdfdf;
+               font-size: 15px;
+               display: flex;
+               flex-direction: row;
+               justify-content: space-around;
+               align-content: space-around;
+}/*end of section two styling*/
+
+/*Third section*/
+.thirdsection {background-color: var(--bodycolor);
+               color: var(--deepcolor);
+               width: 100%;
+               clear: both;
+               display: block;
+}/*this is third section styling*/
+
+.cut-out-div {width: 80%;
+              display: block;
+              margin-top: 50px;
+              margin-left: auto;
+              margin-right: auto;
+}/*the cut out div styling*/
+
+.third-heading {text-align: center;}
+
+.pp {display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-content: center;
+     margin-top: 30px;
+     margin-bottom: 60px;
+}
+
+.s-button {text-align: center;
+           margin: 0px;
+           color: white;
+}/*section three header styling complete*/
+
+.img-card-container {width:40%;
+}/*global container styling*/
+
+.fcontainer {float: left;
+}/*first container float to left*/
+
+
+
+.images {width: 90%;
+         margin-left: auto;
+         margin-right: auto;
+         content: "";
+         height: 350px;
+         border-radius: 6px;
+         box-shadow: 1px 1px 5px var(--deepcolor);
+}/*general image box style*/
+
+.fimage {background-image: url(images/firstimage.png);
+         background-size: cover;
+         background-repeat: no-repeat;
+}/*first image box style*/
+
+.imginfo {font-weight: bold;
+          text-align: center;
+          font-size: 22px;
+          width: 90%;
+          margin: 25px auto 0px;
+}/*image info general styling*/
+
+.imgextra {width: 100%;
+           font-size: 18px;
+           margin: 0px 0px 0px 0px;
+           text-align: center;
+}/*image extra general styling*/
+
+.scontainer {float: right;
+}/*second container*/
+
+.simage {background-image: url(images/secondimage.jpeg);
+         background-size: cover;
+         background-repeat: no-repeat;
+}/*second container image*/
+
+.tcontainer {float: left;
+             margin-top: 80px;
+             margin-bottom: 100px;
+}/*third image container*/
+
+.timage {background-image: url(images/thirdimage.jpeg);
+         background-size: cover;
+         background-repeat: no-repeat;
+}/*image  style for third container*/
+
+.focontainer {float: right;
+              margin-top: 80px;
+              margin-bottom: 100px;
+}/*fourth image container*/
+
+.foimage {background-image: url(images/fourthimage.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+}/*image  style for fourth container*/
+
+
+/*Section four styling*/
+.section-four {background-color: var(--deepcolor);
+               clear: both;
+               color: white;
+               padding-top: 20x;
+               display: block;
+               margin-bottom: 0px;
+}/*section four container styling*/
+
+.letter {width:70%;
+             display: block;
+}
+
+.letter-div {padding-top: 140px;
+             padding-left: 35px;
+}/*letter container style*/
+
+.third-sec-heading   {font-size: 78px;
+                      line-height: 100px;
+                      margin-top: 18px;
+}/*headind for third section*/
+
+.third-sec-p {font-size: 20px;
+              margin-top: 26px;
+              width: 87%;
+              margin-bottom: 26px;
+}
+.t-button {color: var(--deepcolor);
+           background-color: white;
+           padding: 20px 60px;
+           border: 3px solid white;
+           border-radius: 5px;
+           margin-left: 20px;
+           cursor: pointer;
+}
+
+.t-button:hover {transform: scale(1.1, 1);
+}/*styling for third section button*/
+
+.card-div {margin-top: 50px;
+           width: 95%;
+           margin-left: auto;
+           margin-right: auto;
+           margin-bottom: 0px;
+           color: var(--deepcolor);
+           display: block;
+}/*card container style*/
+
+.dvc {width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-content: space-around;
+}
+
+.card-one {width: 32%;
+           background-color: white;
+           margin-top: 15px;
+           border-radius: 15px;
+}
+
+.card-one:hover {margin-top: 0px;
+opacity:0.8;}/*card one*/
+
+.img-frame {width: 100%;
+            height: 450px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+}/*general frame style*/
+
+.background-one {background-image: url(images/revisit.jpeg);
+                 background-size: cover;
+                 background-repeat: no-repeat;
+}/*personal image one style*/
+
+.frame-follow {width: 100%;
+               height: 210px;
+               padding-left: 30px;
+               padding-right: 30px;
+               padding-top: 35px;
+}/*general frame follow style*/
+
+.p-one-frame {font-size: 16px;
+              width: 50%;
+              float: left;
+}
+
+.p-frame {color: #ec8675;
+          font-family: 'permanent marker', serif;
+          font-size: 17px;
+          width:50%;
+          float: right;
+          text-align: right;
+}
+
+.p-two-frame {font-weight: bold;
+              font-size: 26px;
+              clear: both;
+}
+
+.p-three-frame {font-size: 17px;
+                margin-top: 30px;
+                cursor: pointer;
+}/*frame words style*/
+
+.card-two {width: 32%;
+       background-color: white;
+       margin-top: 15px;
+       border-radius: 15px;
+}
+
+.card-two:hover {margin-top: 0px;
+opacity: 0.8;}/*card two*/
+
+.background-two {background-image: url(images/frametwo.jpeg);
+       background-size: cover;
+       background-repeat: no-repeat;
+}/*personal image two style*/
+
+.card-three {width: 32%;
+       background-color: white;
+       margin-top: 15px;
+       border-radius: 15px;
+}
+
+.card-three:hover {margin-top: 0px;
+       opacity: 0.8;}/*card three*/
+
+.background-three {background-image: url(images/framethree.jpeg);
+       background-size: cover;
+       background-repeat: no-repeat;
+}/*personal image three style*/
+/*end of section four styling*/
+
+.form-container {clear: both;
+               width: 100%;
+               background-image: url(images/secondbackground.jpeg);
+               background-repeat: no-repeat;
+               background-size: cover;
+               background-position: center;
+               padding-top: 100px;
+               padding-bottom: 100px;
+}/*form container style*/
+
+.section-five {background-color: var(--deepcolor);
+               width: 100%;
+               clear: both;
+}/*section five style*/
+
+.aaa {background-color: var(--deepcolor);
+height: 60px;}/*used to add margin*/
+
+.f-back {background-color: #cfddee;
+         width: 95%;
+         margin-left: auto;
+         margin-right: auto;
+         border-radius: 15px;
+}/*all contents container*/
+
+.section-f-content {width: 60%;
+                    margin-right: auto;
+                    margin-left: auto;
+                    
+}/*content width shortner*/
+
+.form-heading {font-size: 60px;
+               padding-top: 140px;
+               text-align: center;
+               line-height: 60px;
+}/*form heading*/
+
+.sec-five-p {padding-top: 45px;
+       font-size: 20px;
+       text-align: center;
+}/*sec-five-p styling*/
+
+.form {padding-top: 30px;
+       width: 80%;
+       padding-bottom: 120px;
+       display: block;
+       margin: auto;
+}/*form container*/
+
+.form-content {width: 32%;
+       padding-left: 10px;
+       padding-top: 19px;
+       padding-bottom: 19px;
+       background-color: #2034921a;
+       color: var(--deepcolor);
+       border: 1px none #000;
+       border-radius: 6px;
+}
+
+.form-content:focus {border:1px none #000}
+
+.for-content {width: 31%;
+       padding-top: 20px;
+       padding-bottom: 20px;
+       background-color: var(--deepcolor);
+       color: var(--bodycolor);
+       border: 1px solid var(--deepcolor);
+       border-radius: 6px;
+       cursor: pointer;
+}
+
+.for-content:hover {transform: scale(1, 1.1);}
+
+/*section six start*/
+
+.sec-six {clear: both;
+          background-color: var(--bodycolor);
+}
+
+.sec-six-div {margin-top: 160px;
+              width: 60%;
+              margin-left: auto;
+              margin-right: auto;
+              text-align: center;
+}
+
+.sec-six-heading {font-size: 60px;
+                  text-align: center;
+                  line-height: 60px;
+                  padding-bottom: 40px;
+}
+
+.sec-six-p {font-size: 20px;
+}
+
+.button-div {text-align: center;
+             margin-top: 20px;
+             margin-bottom: 150px;
+}
+
+.button-sec-six {background-color: var(--deepcolor);
+                 border-radius: 6px;
+                 border: 2px solid var(--deepcolor);
+                 padding: 16px 21px;
+                 color: var(--bodycolor);
+}
+/*end of section six style*/
+
+.footer {padding:100px 45px;
+         background-color: var(--deepcolor);
+         color: var(--bodycolor);
+         text-align: center;
+}
+.tab {width: 100%;}
+th {font-size: 16px;
+}
+
+td {color: white;
+    font-size: 20px;
+}
+
+.payment {margin-top: 50px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          align-content: space-around;
+          flex-wrap: wrap;      
+}
+
+.pay {width: 50px;
+       background-color: var(--bodycolor);
+       padding: 8px 15px;
+       border-radius: 6px;
+}
+
+.last-div {text-align: center;
+           padding-top: 25px;
+           padding-bottom: 0px;
+}
+
+.credit {color: var(--bodycolor);
+           text-decoration: none;
+}
+
+/*end of normal styling*/
+
+/*media query tablet*/
+
+@media screen and (max-width: 1066px){
+       .img-card-container {width:100%;
+                            margin-bottom: 30px;
+                            margin-top: 0px;
+       }
+}
+
+/*media query tablet*/
+
+@media screen and (max-width:500px) {
+       .div-one {width: 100%;
+                 display: block;
+                 float: none;
+       }
+       .first-section {width: 100%;
+                       padding-left: 12px;
+                       padding-right: 12px;
+       }
+
+       .div-two {display: block;
+                 width: 100%;
+                 float: none;
+                 margin-top: 25px;
+    }
+    .fparagraph {font-size: 13px;
+                 font-weight: 600;
+    }
+    .second-heading {font-size: 39px;
+       line-height: 60px;
+       margin-top: 15px;
+}
+.online {margin-top: 30px;
+         margin-left: 10px;
+}
+.second-div-p {font-size: 12px;
+}
+.first-div-p {font-size: 20px;
+       font-weight: bold;
+       width: 100%;
+}
+
+.third-heading  {font-size: 30px;}
+.s-button {padding: 10px 15px;
+margin: 0px;}
+.pp {margin-top: 15px;
+margin-bottom: 120px;}
+.imginfo {font-size: 22px;}
+.imgextra {font-size: 16px;}
+.third-sec-heading {font-size: 45px;
+       width: 100%;
+line-height: 50px;}
+
+.letter 
+{width: 95%;}
+
+.third-sec-p
+{width: 100%;}
+
+.t-button 
+{margin-left: 0px;}
+
+.cards 
+{width: 100%;}
+
+.dvc 
+{width: 100%;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       align-content: space-around;
+       }
+ .for-content {width: 100%;
+display: block;
+}
+.form-content {width: 100%;
+       display: block;
+       margin-bottom: 15px;
+}
+.sec-six-div
+{width: 90%;
+margin-top: 80px;}
+.sec-six-heading
+{font-size: 35px;
+padding-bottom: 20px;}
+.sec-six-p
+{font-size: 16px;
+}
+.button-div
+{margin-bottom: 80px;}
+.footer {padding: 100px 30px;}
+.section-f-content {width: 80%;}
+.form-heading {font-size: 50px;}
+}
+
+/*Developed By Codemike*/
